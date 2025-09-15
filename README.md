@@ -51,9 +51,6 @@ def detect_red_and_yellow(frame):
 Converts each frame from BGR → HSV.
 HSV is chosen because it separates color from brightness.
 
-
-Converts each frame from BGR → HSV.
-HSV is chosen because it separates color from brightness.
 ### Define HSV Ranges
 ```bash
 # Red ranges
