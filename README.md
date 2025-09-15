@@ -25,3 +25,27 @@ It detects **red** and **yellow objects** from a webcam feed, draws bounding box
 Install dependencies:
 ```bash
 pip install opencv-python numpy
+
+How to run:
+- Download or clone the file
+- Create and open directory named "Color Detection"
+- Open console command or terminal in this path
+- install dependencies using console command or terminal
+- type "py script.py" to use the script in the console command or terminal
+- Pop up will show and start to detecting color red and yellow
+- press "q" to exit the window detection
+
+## How the code works
+```bash
+import cv2
+import numpy as np
+
+cv2 = OpenCV for computer vision tasks.
+numpy = for handling arrays (used in HSV range definitions).
+
+```bash
+def detect_red_and_yellow(frame):
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+
+Converts each frame from BGR → HSV.
+HSV is chosen because it separates color from brightness.
