@@ -28,7 +28,7 @@ pip install opencv-python numpy
 ```
 How to run:
 - Download or clone the file
-- Create and open directory named "Color Detection"
+- Create and open directory named "Color Detection" and place the downloaded or cloned file named "script.py" to this directory
 - Open console command or terminal in this path
 - install dependencies using console command or terminal
 - type "py script.py" to use the script in the console command or terminal
